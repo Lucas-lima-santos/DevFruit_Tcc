@@ -22,13 +22,7 @@ def login():
     return render_template('login.html')
 
 @app.route('/autenticar',methods=['GET'])
-def autenticar():
-    usuario = request.args.get('usuario')
-    senha = request.args.get('senha')
-    if usuario != "teste@teste.com.br" and senha!=1:
-        return "usuario: {} e/ou senha:  {} Não cadastrado  ".format(usuario,senha)
-    else:
-        return render_template('index.html')
+
         
 
 @app.route('/pagamento')
