@@ -1,0 +1,50 @@
+Tabelas
+
+
+
+cliente
+
+id_cliente primary key;
+nome completo varchar(50);
+data nascimento DATE
+cpf INT (11);
+endereço/numero 
+cep
+
+produtos
+
+id produto
+descrição
+vlr venda
+vlr custo
+tipo - verdura legumes etc
+qtd
+
+select * produto 
+where qtd >0
+
+
+PEDIDOS
+
+ID_VENDA
+ID_CLIENTE
+ID_PRODUTO
+QTD
+VLR_VENDA
+
+
+ENTREGA 
+ID_CLIENTE
+
+
+
+
+
+
+
+
+
+
+
+
+

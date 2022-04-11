@@ -1,0 +1,153 @@
+/* geral*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF;
+}
+
+/*
+menu
+*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+nav {
+    background-color: #1C4D18;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+input,label
+{
+    display: block;
+    width: 100%;
+}
+input:focus,label:focus
+{
+    outline:none;
+}
+a
+{
+    color:lightgreen;
+}
+h2
+{
+    color: red;
+}
+
+body
+{
+    padding: 5vh;    
+    background-image: url('../img/img4.jfif');
+    background-position:cover;
+    background-position-y: -150px;
+    
+}
+/* form*/
+#main-container
+{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(254, 246, 246, 0.907);
+    border-radius: 10px;
+    padding:25px;
+}
+#main-container h1 a
+{
+    text-align: center;   
+    margin-bottom: 25px;
+    font-size:1.6rem ;
+}
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.full-box
+{
+    flex: 1 1 100%;
+    position: relative;
+
+}
+
+.half-box
+{
+    flex: 1 1 45%;
+    position: relative;
+}
+.spacing
+{
+    margin-right: 2.5%;
+
+}
+label
+{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+input
+{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+}
+input:focus
+{
+    border-color: green;
+}
+input[type="submit"]
+{
+    background-color: rgba(3, 206, 3, 0.648);
+    color: #fff;
+    border:none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+#agreement
+{
+    margin-right: 5px;
+}
+#agreement, #agreement-label
+{      
+    
+    display:inline-block;
+    width:auto;
+
+}
+
+/* validação*/
+
+.error-validation
+{
+    color:red;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+.template
+{
+    display: none;
+}
+h1
+{
+    font-style: italic;
+    color: green;
+    font-size: center;
+}

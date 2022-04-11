@@ -1,0 +1,4 @@
+--------------- alterações no html e no css -----------------
+1 - Renomeção dos arquivos na pasta "/static/css" 
+1 - Renomeção dos arquivos na pasta "TEMPLATES" 
+1 - alteração nos caminhos do "css" no "html" 

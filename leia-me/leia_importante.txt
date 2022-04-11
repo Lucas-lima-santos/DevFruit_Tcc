@@ -1,0 +1,23 @@
+--------------- SOBRE RODA A APLICAÇÃO ---------------
+Essa pasta esta configurada para roda em qualquer maquina.
+Dado que o seu "Vscode" esteja ajustado.
+
+
+ --------------- informações ---------------
+    1. nome do ambiente - devfruit
+    2. comando para roda a APLICAÇÃO - flask run
+
+=====================> Passo a passo <=====================
+
+1. Salve a pasta "impacta.rar" na area de trabalho.
+2. Extraia os arquivos use " Extract Here".
+3. Abra o "cmd", cole o caminho"cd Desktop\Impacta\4semestre\pjv2 "
+   1. Obs: Verifique se a sua "area de trabalho" esta no "cmd" como "desktop".
+4. Cole o comando no CMD " .\devfruit\Scripts\Activate ".
+    Se erro:
+        4.1 Se for esse erro: "UnauthorizedAccessException" significa que você precisa autorizar 
+            a execução do Scripts no PowerShell.
+        4.2 Abra o PowerShell em modo de administrador e execute o seguinte comando:"Set-ExecutionPolicy unrestricted"
+continua...
+   
+
