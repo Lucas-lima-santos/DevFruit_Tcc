@@ -21,9 +21,7 @@ def finalizar():
 def login():
     return render_template('login.html')
 
-@app.route('/autenticar',methods=['GET'])
-
-        
+       
 
 @app.route('/pagamento')
 def pagamento():
