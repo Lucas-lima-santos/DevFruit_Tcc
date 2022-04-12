@@ -1,1 +1,1 @@
-web: gunicorn -b :$port devfruit:app
+web: gunicorn -b :$port devfruit:app.py
